@@ -54,7 +54,7 @@ body {
 }
 
 .button {
-    padding: 14px;
+    padding: 11px;
     color: #354463;
     font: normal normal bold 18px/22px Helvetica;
     border: 0;
@@ -894,7 +894,7 @@ body {
 .subscribe button {
     border-radius: 100px;
     border: 0;
-    padding: 1.5%;
+    padding: 10px;
     background-color: #354463;
     text-align: left;
     font: normal normal bold 16px/19px Helvetica;
