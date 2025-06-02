@@ -1,0 +1,128 @@
+/* header nav bar */
+.nav {
+    background-color: #FFFFFF;
+}
+
+.nav .logo_links .logo {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+
+.nav .logo_links .links a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+.nav .donate button {
+    border-radius: 100px;
+    background-color: #C1F7D5;
+    border: 0;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+}
+
+/* start page */
+.start-page {
+    background: url('assets/about-us/annie-spratt-427339-unsplash@2x.png') no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+}
+
+.start-page .hashtag {
+    text-align: left;
+    font: normal normal normal 60px/60px Flood Std;
+    color: #FFFFFF;
+}
+
+.start-page .head_matter {
+    background-color: #FFFFFF;
+}
+
+.start-page .head_matter .head {
+    background-color: #354463;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+}
+
+.start-page .head_matter .matter p {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+
+/* Mission & Values */
+.mission-values {
+    background-color: #354463;
+}
+
+.mission-values .head_matter .head {
+    background-color: #FFFFFF;
+    text-align: center;
+    font: normal normal normal 15px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+}
+
+.mission-values .head_matter .matter {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+/*--------------------- TABLET VERSION---------------------*/
+
+@media(min-width : 600px) {
+
+    /* header nav page */
+    .nav .logo_links .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    .nav .logo_links .links a {
+        font: normal normal 300 16px/24px Helvetica;
+    }
+
+    /*start page*/
+    .start-page .head_matter .matter p {
+        font: normal normal bold 28px/36px Helvetica;
+        text-align: left;
+    }
+
+    /* Mission & Values */
+
+}
+
+/*-------------------------DESKTOP VERSION---------------------*/
+
+@media (min-width : 1200px) {
+
+    /* header nav page */
+    .nav .logo_links .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    .nav .logo_links .logo_links a {
+        font: normal normal 300 16px/24px Helvetica;
+    }
+
+    /*start page*/
+    .start-page .hashtag {
+        font: normal normal normal 100px/101px Flood Std;
+    }
+
+    .start-page .head_matter .matter p {
+        font: normal normal bold 35px/39px Helvetica;
+        text-align: left;
+    }
+
+    /* Mission & Values */
+
+}

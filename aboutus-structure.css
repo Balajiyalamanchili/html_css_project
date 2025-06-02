@@ -1,0 +1,168 @@
+.nav {
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .logo_links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.nav .logo_links .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .donate {
+    align-self: center;
+    width: 100%;
+
+}
+
+.nav .donate button {
+    padding: 3%;
+    width: 100%;
+}
+
+/* start page */
+.start-page {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 10% 7% 10%;
+}
+
+.start-page .head_matter {
+    margin-top: 60%;
+    padding: 0 8% 8% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-page .head_matter .head {
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 160px;
+}
+
+/* Mission & Values */
+.mission-values{
+    padding: 5% 10% 5% 10%;
+}
+.mission-values .head_matter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mission-values .head_matter .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 160px;
+    margin-bottom: 7%;
+}
+
+/*--------------------- TABLET VERSION---------------------*/
+
+@media(min-width : 600px) {
+
+    /* header nav page */
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav .logo_links {
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .nav .logo_links .links {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
+
+    .nav .donate {
+        width: 30%;
+    }
+
+    /*start page*/
+    .start-page .hashtag {
+        width: 50%;
+    }
+
+    .start-page .head_matter {
+        margin-top: 10%;
+    }
+
+    /* Mission & Values */
+
+}
+
+
+
+/*-------------------------DESKTOP VERSION---------------------*/
+
+@media (min-width : 1200px) {
+
+    /* header nav page */
+    .nav .logo_links {
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .nav .logo_links .logo {
+        width: 30%;
+    }
+
+    .nav .logo_links .links {
+        width: 70%;
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    /*start page*/
+
+    .start-page {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 3%;
+        position: relative;
+    }
+
+    .start-page .hashtag {
+        width: 40%;
+        position: relative;
+    }
+
+    .start-page .head_matter {
+        width: 40%;
+        margin: 0;
+        padding: 0 8% 5% 5%;
+        position: relative;
+        top: 100px;
+    }
+
+    .start-page .head_matter .matter {
+        padding-top: 5%;
+    }
+
+    /* Mission & Values */
+
+}
