@@ -3,11 +3,7 @@
     padding: 0;
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-}
+/* start of the index file css */
 
 .header {
     padding-top: 20px;
@@ -141,7 +137,6 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-decoration: underline;
-
     font: normal normal 300 18px/24px Helvetica;
 }
 
@@ -155,8 +150,6 @@ body {
     flex-direction: column;
     position: relative;
     align-items: center;
-
-
 }
 
 .top_box {
@@ -320,6 +313,8 @@ body {
     padding-bottom: 20px;
 }
 
+
+
 .mission1 {
     background-color: #FFFFFF;
     display: flex;
@@ -438,7 +433,6 @@ body {
 
 .mission3 .text_area h2 {
     text-align: center;
-    width: 250px;
     font: normal normal bold 18px/22px Helvetica;
     letter-spacing: 0px;
     color: #354463;
@@ -499,7 +493,7 @@ body {
     width: 90%;
 }
 
-.did_you_know .circle{
+.did_you_know .circle {
     height: 40px;
     width: 40px;
     background-color: #C1F7D5;
@@ -509,9 +503,11 @@ body {
     justify-content: center;
     margin-bottom: 10px;
 }
-.did_you_know .circle img{
+
+.did_you_know .circle img {
     height: 20px;
 }
+
 .insight1 {
     background-color: #FFFFFF;
     padding: 10%;
@@ -560,13 +556,17 @@ body {
 }
 
 
-.insight2 , .insight3 , .insight4 {
+.insight2,
+.insight3,
+.insight4 {
     background-color: #FFFFFF;
     padding: 10%;
     margin-bottom: 5%;
 }
 
-.insight2 .div1 ,.insight3 .div1 ,.insight4  .div1 {
+.insight2 .div1,
+.insight3 .div1,
+.insight4 .div1 {
     display: flex;
     text-align: left;
     font: normal normal bold 17px/28px Helvetica;
@@ -576,7 +576,9 @@ body {
     justify-content: space-between;
 }
 
-.insight2 .div2 ,.insight3 .div2 ,.insight4 .div2 {
+.insight2 .div2,
+.insight3 .div2,
+.insight4 .div2 {
     display: flex;
     text-align: left;
     font: normal normal 300 16px/17px Helvetica;
@@ -1241,38 +1243,22 @@ footer .hashtag {
         padding-bottom: 10px;
     }
 
-    .mission1 {
-        padding: 10px;
-        margin-right: 5%;
-        margin-top: 10%;
-        flex-direction: column;
-    }
-
-    .mission1 button {
-        align-self: center;
-    }
-
-    .mission1 img {
+    .missions img {
         left: 10%;
         width: 105%;
         height: 220px;
     }
 
+    .missions button {
+        align-self: center;
+    }
+
+    .mission1,
     .mission2 {
         padding: 10px;
         margin-right: 5%;
         margin-top: 10%;
         flex-direction: column;
-    }
-
-    .mission2 button {
-        align-self: center;
-    }
-
-    .mission2 img {
-        left: 10%;
-        width: 105%;
-        height: 220px;
     }
 
     .mission3 {
@@ -1281,15 +1267,6 @@ footer .hashtag {
         flex-direction: column;
     }
 
-    .mission3 button {
-        align-self: center;
-    }
-
-    .mission3 img {
-        left: 10%;
-        width: 105%;
-        height: 220px;
-    }
 
     /* page3 */
     .hashtag_button {
@@ -1310,6 +1287,7 @@ footer .hashtag {
 
 
     /* page4 */
+
     .stories {
         display: flex;
         flex-direction: row-reverse;
@@ -1372,7 +1350,6 @@ footer .hashtag {
         padding-top: 10%;
     }
 
-
     .lets-take-action .news .events .matter_button {
         padding-left: 10%;
     }
@@ -1418,6 +1395,7 @@ footer .hashtag {
         width: 50%;
     }
 
+
     /* footer */
     footer {
         display: flex;
@@ -1455,7 +1433,5 @@ footer .hashtag {
     footer .empty1 {
         width: 0;
     }
-
-
 
 }
