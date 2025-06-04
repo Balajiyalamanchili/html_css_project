@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .logo_links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.nav .logo_links .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .donate {
+    align-self: center;
+    width: 100%;
+
+}
+
+.nav .donate button {
+    padding: 3%;
+    width: 100%;
+}
+
+/* donation */
+
+.donation content {
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.donation content form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.donation content form .your-info,.payment-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5% 0;
+}
+
+form .payment-info h2 , form .your-info h2{
+    margin: 5% 0 5% 0;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .name div{
+    width: 45%;
+}
+form .city-state-zip div{
+    width: 31%;
+}
+form .expire-code .expire,.cvc{
+    width: 45%;
+}
+form .month-year input{
+    width: 45%;
+}
+
+
+/* form .your-info .name {
+    display: flex;
+}
+
+.your-info .street {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-info .city-state-zip {
+    display: flex;
+}
+
+.city-state-zip .city {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-state-zip .state {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-state-zip .zip {
+    display: flex;
+    flex-direction: column;
+}
+.your-info .email{
+    display: flex;
+    flex-direction: column;
+} */
+
+/*--------------------- TABLET VERSION---------------------*/
+
+@media(min-width : 600px) {
+
+    /* header nav page */
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav .logo_links {
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    .nav .logo_links .links {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
+
+    .nav .donate {
+        width: 30%;
+    }
+
+}
+
+
+
+
+/*-------------------------DESKTOP VERSION---------------------*/
+
+@media (min-width : 1200px) {
+
+    /* header nav page */
+    .nav .logo_links {
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .nav .logo_links .logo {
+        width: 30%;
+    }
+
+    .nav .logo_links .links {
+        width: 70%;
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+}

@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="donate-structure.css">
+    <link rel="stylesheet" href="donate-style.css">
 </head>
+
 <body>
-    <h1>Not today bro.May be tommorow?</h1>
+    <header class="nav">
+        <div class="logo_links">
+            <p class="logo">The Green <br> Trees Initiative </p>
+            <div class="links">
+                <a href="aboutus.html">About us</a>
+                <a href="index.html">Our stories</a>
+                <a href="index.html">News and events</a>
+
+            </div>
+        </div>
+        <div class="donate">
+            <a href="donate_today.html">
+                <button class="button">Donate Today</button>
+            </a>
+        </div>
+    </header>
+    <section class="donation">
+        <content>
+            <div class="hashtag">Give HOPE to those Who need It most</div>
+            <form>
+                <div class="your-info">
+                    <h2>Your information</h2>
+                    <div class="name row">
+                        <div class="first-name col">
+                            <p>FIRST NAME</p>
+                            <input type="text" placeholder="First name" required>
+                        </div>
+                        <div class="last-name col">
+                            <p>LAST NAME</p>
+                            <input type="text" placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="street col">
+                        <p>STREET ADDRESS</p>
+                        <input type="text" placeholder="Street address" required>
+                    </div>
+                    <div class="city-state-zip row">
+                        <div class="city col">
+                            <p>CITY</p>
+                            <input type="text" placeholder="City" required>
+                        </div>
+                        <div class="state col">
+                            <p>STATE</p>
+                            <input type="text" placeholder="State" required>
+                        </div>
+                        <div class="zip col">
+                            <p>ZIP CODE</p>
+                            <input type="text" placeholder="Zip" required>
+                        </div>
+                    </div>
+                    <div class="email col">
+                        <p>EMAIL ADDRESS</p>
+                        <input type="text" placeholder="Email address" required>
+                    </div>
+
+                </div>
+                <div class="payment-info">
+                    <h2>Payment information</h2>
+                    <div class="card-no col">
+                        <p>CREDIT CARD NUMBER</p>
+                        <input type="text" placeholder="Credit card number" required>
+                    </div>
+                    <div class="expire-code row">
+                        <div class="expire col">
+                            <p>EXPIRATION DATE</p>
+                            <div class="month-year row">
+                                <input type="text" placeholder="MM" required>
+                                <input type="text" placeholder="YYYY" required>
+                            </div>
+                        </div>
+                        <div class="cvc col">
+                            <p>SECURITY CODE</p>
+                            <input type="text" placeholder="CVC" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="matter">
+                    Click the button to confirm your donation of $10, recurring monthly.
+                </div>
+                <button>
+                    Process Payment
+                </button>
+            </form>
+        </content>
+    </section>
 </body>
+
 </html>

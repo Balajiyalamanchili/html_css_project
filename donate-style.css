@@ -1,0 +1,106 @@
+/* header nav bar */
+.nav {
+    background-color: #FFFFFF;
+}
+
+.nav .logo_links .logo {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+
+.nav .logo_links .links a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+.nav .donate button {
+    border-radius: 100px;
+    background-color: #C1F7D5;
+    border: 0;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+}
+
+
+/* page */
+.donation {
+    background: url('assets/donation/annie-spratt-427340-unsplash@2x.png') no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 15, 15, 0.7);
+}
+
+.donation content .hashtag {
+    text-align: center;
+    font: normal normal normal 32px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.donation content form {
+    background-color: #354463;
+}
+
+form h2 {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #FFFFFF;
+}
+
+form .your-info p, form .payment-info p {
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+}
+form input {
+    border: 0;
+    border-bottom: 2px solid #C1F7D5;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    background-color: #354463;
+    opacity: 0.5;
+}
+
+form .matter {
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #FFFFFF;
+}
+
+
+
+/*--------------------- TABLET VERSION---------------------*/
+
+@media(min-width : 600px) {
+
+    /* header nav page */
+    .nav .logo_links .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    .nav .logo_links .links a {
+        font: normal normal 300 16px/24px Helvetica;
+    }
+
+}
+
+/*-------------------------DESKTOP VERSION---------------------*/
+
+@media (min-width : 1200px) {
+
+    /* header nav page */
+    .nav .logo_links .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    .nav .logo_links .logo_links a {
+        font: normal normal 300 16px/24px Helvetica;
+    }
+}

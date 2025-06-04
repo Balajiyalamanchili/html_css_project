@@ -152,6 +152,53 @@
     color: #FFFFFF;
 }
 
+/* save*/
+.save {
+    background-color: #354463;
+}
+
+.save .head h2 {
+    text-align: center;
+    font: normal normal normal 44px/46px Flood Std;
+    color: #FFFFFF;
+}
+
+.save .sub-content .box {
+    background-color: #FFFFFF;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+}
+.save .sub-content .next-button{
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    border: 0;
+}
+.save .sub-content .matter {
+    background-color: #FFFFFF;
+}
+
+.save .sub-content .matter h2 {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+
+.save .sub-content .matter p {
+    text-align: center;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+.save .sub-content .matter button{
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px; 
+    font: normal normal bold 14px/22px Helvetica;
+    color: #354463;
+}
 
 /*--------------------- TABLET VERSION---------------------*/
 
@@ -274,7 +321,7 @@
     }
 
     .our-impact content .achievements .achieved h4 {
-       font: normal normal normal 72px/76px Flood Std;
+        font: normal normal normal 72px/76px Flood Std;
     }
 
     .our-impact content .achievements .achieved P {
