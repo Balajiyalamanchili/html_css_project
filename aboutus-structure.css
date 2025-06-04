@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -31,6 +31,7 @@
     width: 100%;
 }
 
+
 /* start page */
 .start-page {
     display: flex;
@@ -58,22 +59,130 @@
 }
 
 /* Mission & Values */
-.mission-values{
+.mission-values {
     padding: 5% 10% 5% 10%;
 }
-.mission-values .head_matter{
+
+.mission-values .head_matter {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
-.mission-values .head_matter .head{
+
+.mission-values .head_matter .head {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 40px;
     width: 160px;
-    margin-bottom: 7%;
+    margin-bottom: 10px;
 }
+
+.mission-values .quotes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mission-values .quotes .q {
+    width: 45%;
+    margin: 2% 5% 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-values .quotes .img-div {
+    display: flex;
+    height: 25%;
+    margin-bottom: 5px;
+}
+
+.mission-values .quotes img {
+    width: 25%;
+}
+
+.mission-values .quotes h2 {
+    margin-bottom: 5px;
+}
+
+/* OUR TEAM */
+.our-team {
+    position: relative;
+}
+
+.our-team content {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% 5% 10%;
+}
+
+.our-team content .box-head-matter {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-team content .box-head-matter .box {
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: -4%;
+    align-self: center;
+}
+
+.our-team content .box-head-matter .head-matter {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0 3% 0;
+}
+
+.our-team content .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-team content .team .member {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-bottom: 5%;
+}
+
+.our-team content .team .member .name {
+    padding: 5% 30% 5% 5%;
+}
+
+/* our - impact */
+.our-impact content {
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-impact content .box {
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.our-impact content .head {
+    margin-bottom: 10%;
+}
+
+.our-impact content .achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-impact content .achievements .achieved {
+    margin-bottom: 10%;
+    width: 50%;
+}
+
 
 /*--------------------- TABLET VERSION---------------------*/
 
@@ -88,7 +197,7 @@
     .nav .logo_links {
         flex-direction: column;
         justify-content: center;
-        width: 50%;
+        width: 70%;
         margin-bottom: 0;
     }
 
@@ -114,6 +223,57 @@
     }
 
     /* Mission & Values */
+    .mission-values .head_matter {
+        align-items: start;
+    }
+
+    .mission-values .quotes .q {
+        width: 28%;
+    }
+
+    .mission-values .quotes .img-div {
+        display: flex;
+        height: 40%;
+    }
+
+    .mission-values .quotes img {
+        width: 40%;
+    }
+
+    /* our team */
+    .our-team content {
+        margin-bottom: 0;
+    }
+
+    .our-team content .box-head-matter .box {
+        align-self: start;
+    }
+
+    .our-team content .box-head-matter .head-matter {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .our-team content .box-head-matter .head-matter h2 {
+        width: 47%;
+    }
+
+    .our-team content .box-head-matter .head-matter p {
+        width: 47%;
+        align-self: center;
+    }
+
+    .our-team content .team .member .name {
+        position: relative;
+        top: -6%;
+        left: 7%;
+    }
+
+    /* our impact */
+    .our-impact content .achievements {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -169,5 +329,40 @@
     }
 
     /* Mission & Values */
+    .mission-values .quotes .q {
+        width: 20%;
+    }
+
+    /* our team */
+    .our-team content {
+        margin-top: 5%;
+    }
+
+    .our-team content .team .member {
+        width: 31%;
+        margin-bottom: 1%;
+    }
+
+    /* our impact */
+    .our-impact content .box {
+        padding: 15px 25px 15px 25px;
+        margin-bottom: 5%;
+    }
+    .our-impact content .head{
+        margin-bottom: 5%;
+        width: 60%;
+    }
+
+    .our-impact content .achievements {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .our-impact content .achievements .achieved {
+        margin: 0;
+        width: 23%;
+    }
+
 
 }
