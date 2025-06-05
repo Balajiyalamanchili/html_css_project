@@ -3,24 +3,7 @@
     background-color: #FFFFFF;
 }
 
-.nav .logo_links .logo {
-    text-align: left;
-    font: normal normal bold 22px/28px Helvetica;
-    color: #354463;
-}
-
-.nav .logo_links .links a {
-    text-decoration: none;
-    text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-.nav .donate button {
-    border-radius: 100px;
-    background-color: #C1F7D5;
-    border: 0;
+.nav h2 {
     text-align: center;
     font: normal normal bold 18px/22px Helvetica;
     color: #354463;
@@ -51,13 +34,16 @@ form h2 {
     color: #FFFFFF;
 }
 
-form .your-info p, form .payment-info p {
+form .your-info p,
+form .payment-info p {
     text-align: left;
     font: normal normal normal 11px/13px Helvetica;
     letter-spacing: 0.44px;
     color: #FFFFFF;
 }
-form input {
+
+form input,
+select {
     border: 0;
     border-bottom: 2px solid #C1F7D5;
     text-align: left;
@@ -68,39 +54,160 @@ form input {
     opacity: 0.5;
 }
 
+form .state {
+    justify-content: space-between;
+}
+
 form .matter {
     text-align: left;
     font: normal normal bold 18px/22px Helvetica;
     color: #FFFFFF;
 }
 
+form button {
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+    font: normal normal bold 16px/20px Helvetica;
+    color: #354463;
+}
 
+form a {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #C1F7D5;
+}
+
+/* footer*/
+footer content {
+    text-align: left;
+    color: #354463;
+}
+
+footer content .logo {
+    font: normal normal bold 18px/22px Helvetica;
+}
+
+footer content .contact .p2 {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+}
+
+footer content .follow p,
+.links p,
+.contact .p1 {
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+}
+
+footer content .follow a,
+.links a {
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+footer content .hashtag {
+    text-align: right;
+    font: normal normal normal 30px/46px Flood Std;
+}
 
 /*--------------------- TABLET VERSION---------------------*/
 
-@media(min-width : 600px) {
+@media(min-width : 550px) {
 
     /* header nav page */
-    .nav .logo_links .logo {
+    .nav h2{
+        font: normal normal bold 30px/30px Helvetica;
+    }
+    /* donation*/
+    .donation content .hashtag {
+        font: normal normal normal 72px/76px Flood Std;
+    }
+
+    form h2 {
+        font: normal normal bold 28px/36px Helvetica;
+    }
+
+    form .your-info p,
+    form .payment-info p {
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
+    form input {
+        font: normal normal 300 20px/32px Helvetica;
+    }
+
+    form .matter {
+        font: normal normal bold 28px/36px Helvetica;
+    }
+
+    form button {
         font: normal normal bold 22px/28px Helvetica;
     }
 
-    .nav .logo_links .links a {
-        font: normal normal 300 16px/24px Helvetica;
+    form a {
+        font: normal normal 300 16px/56px Helvetica;
     }
 
+    /* footer */
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
 }
 
 /*-------------------------DESKTOP VERSION---------------------*/
 
-@media (min-width : 1200px) {
+@media (min-width : 900px) {
 
     /* header nav page */
-    .nav .logo_links .logo {
+    .nav h2{
+        font: normal normal bold 36px/37px Helvetica;
+    }
+
+
+    /* donation*/
+    .donation content .hashtag {
+        font: normal normal normal 72px/76px Flood Std;
+    }
+
+    form h2 {
+        font: normal normal bold 28px/36px Helvetica;
+    }
+
+    form input {
+        font: normal normal 300 20px/32px Helvetica;
+    }
+
+    form .matter {
+        font: normal normal bold 28px/36px Helvetica;
+    }
+
+    form button {
         font: normal normal bold 22px/28px Helvetica;
     }
 
-    .nav .logo_links .logo_links a {
-        font: normal normal 300 16px/24px Helvetica;
+    form a {
+        font: normal normal 300 16px/56px Helvetica;
     }
+
+
+    /* footer*/
+
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    footer content .contact .p1 {
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
+    footer content .follow p,
+    .links p {
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
 }

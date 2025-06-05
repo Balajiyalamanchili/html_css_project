@@ -6,32 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="donate-structure.css">
     <link rel="stylesheet" href="donate-style.css">
 </head>
 
 <body>
     <header class="nav">
-        <div class="logo_links">
-            <p class="logo">The Green <br> Trees Initiative </p>
-            <div class="links">
-                <a href="aboutus.html">About us</a>
-                <a href="index.html">Our stories</a>
-                <a href="index.html">News and events</a>
-
-            </div>
-        </div>
-        <div class="donate">
-            <a href="donate_today.html">
-                <button class="button">Donate Today</button>
-            </a>
-        </div>
+        <h2>The Green <br> Trees Initiative </h2>
     </header>
     <section class="donation">
         <content>
             <div class="hashtag">Give HOPE to those Who need It most</div>
-            <form>
+            <form class="form-div">
                 <div class="your-info">
                     <h2>Your information</h2>
                     <div class="name row">
@@ -55,7 +42,13 @@
                         </div>
                         <div class="state col">
                             <p>STATE</p>
-                            <input type="text" placeholder="State" required>
+                            <select type="text" placeholder="State" required>
+                                <option></option>
+                                <option>AP</option>
+                                <option>TS</option>
+                                <option>KA</option>
+                            </select>
+
                         </div>
                         <div class="zip col">
                             <p>ZIP CODE</p>
@@ -91,12 +84,45 @@
                 <div class="matter">
                     Click the button to confirm your donation of $10, recurring monthly.
                 </div>
-                <button>
-                    Process Payment
-                </button>
+                <div class="submit-cancle">
+                    <button>
+                        Process Payment
+                    </button>
+                    <a href="index.html">Go back</a>
+                </div>
             </form>
         </content>
     </section>
+
+    <footer>
+        <content>
+            <div class="logo">The Green Trees Initiative</div>
+            <div class="contact">
+                <p class="p1">CONTACT US</p>
+                <hr>
+                <p class="p2">123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</p>
+            </div>
+            <div class="follow">
+                <p>FOLLOW US</p>
+                <hr>
+                <a href="aboutus.html">Facebook</a>
+                <a href="aboutus.html">Twitter</a>
+                <a href="aboutus.html">Instagram</a>
+                <a href="aboutus.html">Medium</a>
+            </div>
+            <div class="empty"></div>
+            <div class="links">
+                <p>Learn More</p>
+                <hr>
+                <a href="aboutus.html">The issue</a>
+                <a href="aboutus.html">How we help</a>
+                <a href="aboutus.html">Get involved</a>
+                <a href="aboutus.html">Latest news</a>
+            </div>
+            <div class="empty1"></div>
+            <div class="hashtag">#stop climate change</div>
+        </content>
+    </footer>
 </body>
 
 </html>

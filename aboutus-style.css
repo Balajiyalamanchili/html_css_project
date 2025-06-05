@@ -124,7 +124,7 @@
     background: url('assets/about-us/Impact\ Background@2x.png') no-repeat;
     background-size: cover;
     opacity: 1;
-    background-color: rgba(0, 15, 15, 0.7);
+    background-color: rgba(53, 68, 99, 0.8);
 }
 
 .our-impact content .box {
@@ -170,11 +170,13 @@
     letter-spacing: 0.56px;
     color: #354463;
 }
-.save .sub-content .next-button{
+
+.save .sub-content .next-button {
     background-color: #C1F7D5;
     border-radius: 100px;
     border: 0;
 }
+
 .save .sub-content .matter {
     background-color: #FFFFFF;
 }
@@ -192,12 +194,47 @@
     color: #354463;
 }
 
-.save .sub-content .matter button{
+.save .sub-content .matter button {
     background-color: #C1F7D5;
     border: 0;
-    border-radius: 100px; 
+    border-radius: 100px;
     font: normal normal bold 14px/22px Helvetica;
     color: #354463;
+}
+
+/* footer*/
+footer content {
+    text-align: left;
+    color: #354463;
+}
+
+footer content .logo {
+    font: normal normal bold 18px/22px Helvetica;
+}
+
+footer content .contact .p2 {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+}
+
+footer content .follow p,
+.links p,
+.contact .p1 {
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+}
+
+footer content .follow a,
+.links a {
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+footer content .hashtag {
+    text-align: right;
+    font: normal normal normal 44px/46px Flood Std;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -257,7 +294,10 @@
         font: normal normal bold 22px/28px Helvetica;
     }
 
-
+    /* footer */
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
 
 }
 
@@ -328,5 +368,19 @@
         font: normal normal bold 28px/36px Helvetica;
     }
 
+    /* footer*/
+
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    footer content .contact .p1 {
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
+    footer content .follow p,
+    .links p {
+        font: normal normal normal 14px/17px Helvetica;
+    }
 
 }

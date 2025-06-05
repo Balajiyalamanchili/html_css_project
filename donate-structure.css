@@ -9,30 +9,8 @@
     flex-direction: column;
 }
 
-.nav .logo_links {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3%;
-}
-
-.nav .logo_links .links {
-    display: flex;
-    flex-direction: column;
-}
-
-.nav .donate {
-    align-self: center;
-    width: 100%;
-
-}
-
-.nav .donate button {
-    padding: 3%;
-    width: 100%;
-}
 
 /* donation */
-
 .donation content {
     padding: 5% 10% 5% 10%;
     display: flex;
@@ -45,102 +23,143 @@
     padding: 5%;
 }
 
-.donation content form .your-info,.payment-info{
+.donation content form .your-info,
+.payment-info {
     display: flex;
     flex-direction: column;
     margin: 0 0 5% 0;
 }
 
-form .payment-info h2 , form .your-info h2{
+form .payment-info h2,
+form .your-info h2 {
     margin: 5% 0 5% 0;
 }
 
-
-.col {
+form .col {
     display: flex;
     flex-direction: column;
     margin-bottom: 3%;
 }
 
-.row {
+form .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-form .name div{
+form .name div {
     width: 45%;
 }
-form .city-state-zip div{
+
+form .city-state-zip div {
     width: 31%;
 }
-form .expire-code .expire,.cvc{
+
+form .expire-code .expire,
+.cvc {
     width: 45%;
 }
-form .month-year input{
+
+form .month-year input {
     width: 45%;
 }
 
-
-/* form .your-info .name {
-    display: flex;
-}
-
-.your-info .street {
+form .submit-cancle {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.your-info .city-state-zip {
-    display: flex;
+form button {
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px 25px 10px 25px;
 }
 
-.city-state-zip .city {
-    display: flex;
-    flex-direction: column;
+
+/* footer*/
+
+footer {
+    padding: 5% 10% 5% 10%;
 }
 
-.city-state-zip .state {
+footer content {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.city-state-zip .zip {
+footer content div {
     display: flex;
     flex-direction: column;
+    width: 45%;
+    margin-bottom: 5%;
 }
-.your-info .email{
-    display: flex;
-    flex-direction: column;
-} */
+
+footer content .empty {
+    width: 0;
+}
+
+footer content .empty1 {
+    width: 30%;
+}
+
+footer content .hashtag {
+    width: 55%;
+}
 
 /*--------------------- TABLET VERSION---------------------*/
 
-@media(min-width : 600px) {
+@media(min-width : 550px) {
 
     /* header nav page */
-    .nav {
-        flex-direction: row;
-        justify-content: space-between;
+
+
+    /* donation*/
+
+    .donation content {
+        align-items: center;
     }
 
-    .nav .logo_links {
-        flex-direction: column;
-        justify-content: center;
+    .donation content .hashtag {
         width: 70%;
-        margin-bottom: 0;
     }
 
-    .nav .logo_links .links {
+    .donation content form {
+        width: 100%;
+    }
+
+    form .submit-cancle {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    form a {
+        align-self: center;
+    }
+
+    /* footer */
+    footer content {
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 0%;
-        margin-right: 7%;
-        margin-top: 2%;
+        flex-wrap: wrap;
     }
 
-    .nav .donate {
+    footer content div {
+        width: 30%;
+    }
+
+    footer content .empty {
+        width: 30%;
+    }
+
+    footer content .empty1 {
+        width: 0;
+    }
+
+    footer content .hashtag {
         width: 30%;
     }
 
@@ -151,24 +170,46 @@ form .month-year input{
 
 /*-------------------------DESKTOP VERSION---------------------*/
 
-@media (min-width : 1200px) {
+@media (min-width : 900px) {
 
     /* header nav page */
-    .nav .logo_links {
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
+    
+
+    /* donation*/
+    .donation content {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .nav .logo_links .logo {
+    .donation content .hashtag {
         width: 30%;
+        align-self: start;
     }
 
-    .nav .logo_links .links {
-        width: 70%;
+    .donation content form {
+        width: 50%;
+    }
+
+    .donation .form-div{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    form h2 {
         margin-top: 0;
-        margin-right: 0;
-        width: 100%;
-        justify-content: space-around;
+    }
+
+    /* footer */
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer content div {
+        width: 17%;
+    }
+
+    footer content .empty,
+    .empty1 {
+        width: 0;
     }
 }

@@ -184,26 +184,29 @@
 }
 
 /*save*/
-.save content{
+.save content {
     padding: 5% 10% 5% 10%;
     display: flex;
     flex-direction: column;
 }
-.save .sub-content{
+
+.save .sub-content {
     position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 10%;
 }
-.save .sub-content .box{
+
+.save .sub-content .box {
     position: absolute;
-    padding: 10px 25px 10px 25px;   
+    padding: 10px 25px 10px 25px;
     align-self: center;
     top: -4%;
 }
-.save .sub-content .next-button{
+
+.save .sub-content .next-button {
     align-self: end;
-    top:19%;
+    top: 19%;
     right: -20px;
     position: absolute;
     height: 40px;
@@ -215,10 +218,12 @@
     justify-content: center;
     margin-bottom: 10px;
 }
-.save .sub-content .next-button img{
-   height: 20px;
+
+.save .sub-content .next-button img {
+    height: 20px;
 }
-.save .sub-content .matter{
+
+.save .sub-content .matter {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,10 +231,12 @@
     padding: 5%;
     margin-bottom: 5%;
 }
-.save .sub-content .matter p{
+
+.save .sub-content .matter p {
     margin: 5% 0 5% 0;
 }
-.save .sub-content .matter button{
+
+.save .sub-content .matter button {
     width: 50%;
     padding: 10px 25px 10px 25px;
 }
@@ -284,97 +291,37 @@
 }
 
 
-
-
-/* footer */
-footer {
-    padding: 10%;
-}
-
-footer .logo {
-    text-align: left;
-    font: normal normal bold 18px/22px Helvetica;
-    color: #354463;
-}
-
-footer .contact {
-    text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-footer .follow {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .follow p,
-a {
-    text-align: left;
-    font: normal normal 300 14px/24px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-
-footer .links {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .links p,
-a {
-    text-align: left;
-    font: normal normal 300 14px/24px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-footer .hashtag {
-    text-align: right;
-    font: normal normal normal 40px/46px Flood Std;
-    color: #354463;
-}
-
-
-
+/* footer*/
 
 footer {
+    padding: 5% 10% 5% 10%;
+}
+
+footer content {
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFFFFF;
+    justify-content: space-between;
 }
 
-footer div {
-    padding-bottom: 5%;
-}
-
-footer .logo {
-    width: 50%;
-}
-
-footer .contact {
-    width: 50%;
-}
-
-footer .follow {
-    padding-right: 5%;
+footer content div {
+    display: flex;
+    flex-direction: column;
     width: 45%;
+    margin-bottom: 5%;
 }
 
-footer .links {
-    padding-right: 5%;
-    width: 45%;
+footer content .empty {
+    width: 0;
 }
 
-footer .empty1 {
-    width: 45%;
+footer content .empty1 {
+    width: 30%;
 }
 
-footer .hashtag {
-    width: 50%;
+footer content .hashtag {
+    width: 55%;
 }
+
 
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -467,51 +414,28 @@ footer .hashtag {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     /* footer */
-    footer {
+    footer content {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
-    footer div {
-        padding-bottom: 5%;
-    }
-
-    footer .logo {
-        width: 25%;
-        padding-right: 5%;
-        text-align: left;
-        font: normal normal bold 28px/30px Helvetica;
-    }
-
-    footer .contact {
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-
-        padding-right: 5%;
-    }
-
-    footer .follow {
-        width: 30%;
-        display: flex;
-    }
-
-    footer .empty {
+    footer content div {
         width: 30%;
     }
 
-    footer .links {
+    footer content .empty {
         width: 30%;
     }
 
-    footer .hashtag {
-        text-align: left;
-        width: 30%;
-    }
-
-    footer .empty1 {
+    footer content .empty1 {
         width: 0;
+    }
+
+    footer content .hashtag {
+        width: 30%;
     }
 
 }
@@ -626,42 +550,17 @@ footer .hashtag {
         width: 50%;
     }
 
-
     /* footer */
     footer {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5% 10% 0% 10%;
+        padding-bottom: 0;
     }
 
-    footer .logo {
-        font: normal normal bold 28px/30px Helvetica;
-        width: 15%;
-        padding-right: 5%;
+    footer content div {
+        width: 17%;
     }
 
-    footer .contact {
-        width: 15%;
-        padding-right: 7%;
-    }
-
-    footer .follow {
-        width: 20%;
-    }
-
-    footer .empty {
-        width: 0;
-    }
-
-    footer .links {
-        width: 10%;
-    }
-
-    footer .hashtag {
-        width: 15%;
-    }
-
-    footer .empty1 {
+    footer content .empty,
+    .empty1 {
         width: 0;
     }
 

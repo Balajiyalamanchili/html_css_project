@@ -490,7 +490,7 @@
     flex-direction: column;
 }
 
-.did_you_know p{
+.did_you_know p {
     width: 90%;
 }
 
@@ -688,7 +688,8 @@
     flex-direction: column;
 }
 
-.news .events,.latest {
+.news .events,
+.latest {
     display: flex;
     flex-direction: column;
 }
@@ -778,100 +779,77 @@
 }
 
 
+/* footer*/
 
-/* footer */
+/* structure*/
 footer {
-    padding: 10%;
+    padding: 5% 10% 5% 10%;
 }
 
-footer .logo {
-    text-align: left;
-    font: normal normal bold 18px/22px Helvetica;
-    color: #354463;
-}
-
-footer .contact {
-    text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-footer .follow {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .follow p,
-a {
-    text-align: left;
-    font: normal normal 300 14px/24px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-
-footer .links {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .links p,
-a {
-    text-align: left;
-    font: normal normal 300 14px/24px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-}
-
-footer .hashtag {
-    text-align: right;
-    font: normal normal normal 44px/46px Flood Std;
-    color: #354463;
-}
-
-
-
-
-footer {
+footer content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-footer div {
-    padding-bottom: 5%;
-}
-
-footer .logo {
-    width: 50%;
-}
-
-footer .contact {
-    width: 50%;
-}
-
-footer .follow {
-    padding-right: 5%;
+footer content div {
+    display: flex;
+    flex-direction: column;
     width: 45%;
+    margin-bottom: 5%;
 }
 
-footer .links {
-    padding-right: 5%;
-    width: 45%;
+footer content .empty {
+    width: 0;
 }
 
-footer .empty1 {
-    width: 50%;
+footer content .empty1 {
+    width: 30%;
 }
 
-footer .hashtag {
-    width: 50%;
+footer content .hashtag {
+    width: 55%;
+}
+
+/* style */
+footer content {
+    text-align: left;
+    color: #354463;
+}
+
+footer content .logo {
+    font: normal normal bold 18px/22px Helvetica;
+}
+
+footer content .contact .p2 {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+}
+
+footer content .follow p,
+.links p,
+.contact .p1 {
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+}
+
+footer content .follow a,
+.links a {
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+footer content .hashtag {
+    text-align: right;
+    font: normal normal normal 44px/46px Flood Std;
 }
 
 
 /* Tablet Version */
 
-@media(min-width : 600px) {
+@media(min-width : 550px) {
 
 
     .header {
@@ -1140,10 +1118,10 @@ footer .hashtag {
 
 /* Desktop Version */
 
-@media(min-width:1200px) {
+@media(min-width:900px) {
     .header {
         height: 9vh;
-        padding: 0,10%,0,10%;
+        padding: 0, 10%, 0, 10%;
     }
 
     .header_links {
@@ -1244,7 +1222,7 @@ footer .hashtag {
         width: 105%;
         height: 220px;
     }
-    
+
     .missions button {
         align-self: center;
     }
