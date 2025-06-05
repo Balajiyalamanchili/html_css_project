@@ -184,10 +184,17 @@
 }
 
 /*save*/
+
 .save content {
     padding: 5% 10% 5% 10%;
     display: flex;
     flex-direction: column;
+}
+
+.save .scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .save .sub-content {
@@ -195,6 +202,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 10%;
+    width: 80vw;
+}
+
+.save .s2 {
+    display: none;
 }
 
 .save .sub-content .box {
@@ -204,9 +216,10 @@
     top: -4%;
 }
 
+
 .save .sub-content .next-button {
     align-self: end;
-    top: 19%;
+    top: 20%;
     right: -20px;
     position: absolute;
     height: 40px;
@@ -237,7 +250,6 @@
 }
 
 .save .sub-content .matter button {
-    width: 50%;
     padding: 10px 25px 10px 25px;
 }
 
@@ -315,13 +327,12 @@ footer content .empty {
 }
 
 footer content .empty1 {
-    width: 30%;
+    width: 20%;
 }
 
 footer content .hashtag {
-    width: 55%;
+    width: 60%;
 }
-
 
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -415,9 +426,21 @@ footer content .hashtag {
         flex-wrap: wrap;
     }
 
+    /*save*/
+    .save .s2 {
+        display: flex;
+    }
+
+    .save .sub-content {
+        width: 35vw;
+    }
+
+    .save .s1 .next-button {
+        display: none;
+    }
+
     /* footer */
     footer content {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -551,17 +574,21 @@ footer content .hashtag {
     }
 
     /* footer */
-    footer {
+    .footer {
         padding-bottom: 0;
     }
 
-    footer content div {
+    .footer .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer .content div{
         width: 17%;
     }
 
-    footer content .empty,
-    .empty1 {
-        width: 0;
+    .footer .empty, .footer .empty1 {
+        display: none;
     }
 
 }

@@ -103,16 +103,16 @@ footer content .empty {
 }
 
 footer content .empty1 {
-    width: 30%;
+    width: 20%;
 }
 
 footer content .hashtag {
-    width: 55%;
+    width: 60%;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
 
-@media(min-width : 550px) {
+@media(min-width : 600px) {
 
     /* header nav page */
 
@@ -142,7 +142,6 @@ footer content .hashtag {
 
     /* footer */
     footer content {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -170,7 +169,7 @@ footer content .hashtag {
 
 /*-------------------------DESKTOP VERSION---------------------*/
 
-@media (min-width : 900px) {
+@media (min-width : 1123px) {
 
     /* header nav page */
     
@@ -199,17 +198,21 @@ footer content .hashtag {
         margin-top: 0;
     }
 
-    /* footer */
-    footer {
+     /* footer */
+    .footer {
         padding-bottom: 0;
     }
 
-    footer content div {
+    .footer .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer .content div{
         width: 17%;
     }
 
-    footer content .empty,
-    .empty1 {
-        width: 0;
+    .footer .empty, .footer .empty1 {
+        display: none;
     }
 }

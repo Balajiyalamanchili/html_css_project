@@ -234,7 +234,7 @@ footer content .follow a,
 
 footer content .hashtag {
     text-align: right;
-    font: normal normal normal 44px/46px Flood Std;
+    font: normal normal normal 40px/46px Flood Std;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -298,7 +298,6 @@ footer content .hashtag {
     footer content .logo {
         font: normal normal bold 22px/28px Helvetica;
     }
-
 }
 
 /*-------------------------DESKTOP VERSION---------------------*/

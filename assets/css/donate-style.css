@@ -112,17 +112,18 @@ footer content .follow a,
 
 footer content .hashtag {
     text-align: right;
-    font: normal normal normal 30px/46px Flood Std;
+    font: normal normal normal 40px/46px Flood Std;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
 
-@media(min-width : 550px) {
+@media(min-width : 600px) {
 
     /* header nav page */
-    .nav h2{
+    .nav h2 {
         font: normal normal bold 30px/30px Helvetica;
     }
+
     /* donation*/
     .donation content .hashtag {
         font: normal normal normal 72px/76px Flood Std;
@@ -161,10 +162,10 @@ footer content .hashtag {
 
 /*-------------------------DESKTOP VERSION---------------------*/
 
-@media (min-width : 900px) {
+@media (min-width : 1123px) {
 
     /* header nav page */
-    .nav h2{
+    .nav h2 {
         font: normal normal bold 36px/37px Helvetica;
     }
 
@@ -197,15 +198,15 @@ footer content .hashtag {
 
     /* footer*/
 
-    footer content .logo {
+    .footer .content .logo {
         font: normal normal bold 22px/28px Helvetica;
     }
 
-    footer content .contact .p1 {
+    .footer .content .contact .p1 {
         font: normal normal normal 14px/17px Helvetica;
     }
 
-    footer content .follow p,
+    .footer .content .follow p,
     .links p {
         font: normal normal normal 14px/17px Helvetica;
     }

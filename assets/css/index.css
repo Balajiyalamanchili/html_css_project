@@ -318,7 +318,9 @@
 
 
 
-.mission3 , .mission1 , .mission2{
+.mission3,
+.mission1,
+.mission2 {
     padding-bottom: 10%;
     background-color: #FFFFFF;
     display: flex;
@@ -328,27 +330,35 @@
     margin-top: 20%;
 }
 
-.mission3 img, .mission1 img , .mission2 img {
+.mission3 img,
+.mission1 img,
+.mission2 img {
     width: 80%;
     position: relative;
     top: -50Px;
 
 }
 
-.mission3 .text_area ,.mission1 .text_area,.mission2 .text_area{
+.mission3 .text_area,
+.mission1 .text_area,
+.mission2 .text_area {
     margin: 0;
     width: 80%;
 
 }
 
-.mission3 .text_area h2 , .mission1 .text_area h2 ,.mission2 .text_area h2 {
+.mission3 .text_area h2,
+.mission1 .text_area h2,
+.mission2 .text_area h2 {
     text-align: center;
     font: normal normal bold 16px/22px Helvetica;
     letter-spacing: 0px;
     color: #354463;
 }
 
-.mission3 .text_area p , .mission2 .text_area p ,.mission1 .text_area p {
+.mission3 .text_area p,
+.mission2 .text_area p,
+.mission1 .text_area p {
     text-align: center;
     font: normal normal 300 14px/20px Helvetica;
     letter-spacing: -0.14px;
@@ -631,7 +641,7 @@
     color: #FFFFFF;
 }
 
-.news button{
+.news button {
     padding: 10px 25px 10px 25px;
     background-color: #C1F7D5;
     border: 0;
@@ -639,7 +649,8 @@
     font: normal normal bold 18px/22px Helvetica;
     color: #354463;
 }
-.news .matter_button{
+
+.news .matter_button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -855,7 +866,8 @@ footer content .hashtag {
     .did_you_know p {
         font: normal normal 300 20px/20px Helvetica;
     }
-    .what-we-do missions img{
+
+    .what-we-do missions img {
         top: -70px;
     }
 
@@ -1067,7 +1079,7 @@ footer content .hashtag {
         margin-bottom: 7%;
     }
 
-    .missions{
+    .missions {
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -1075,23 +1087,27 @@ footer content .hashtag {
         justify-content: space-between;
 
     }
-    .ms{
+
+    .ms {
         padding-top: 0;
         margin-top: 0;
         flex-wrap: nowrap;
         flex-direction: column;
         width: 20%;
     }
-    .ms .img{
+
+    .ms .img {
         padding-left: 40%;
         position: relative;
         width: 140%;
         top: -50px;
     }
-    .ms .text_area{
+
+    .ms .text_area {
         width: 100%;
     }
-    .ms .button{
+
+    .ms .button {
         align-self: center;
     }
 
@@ -1198,7 +1214,8 @@ footer content .hashtag {
         text-align: left;
         font: normal normal bold 44px/56px Helvetica;
     }
-    .news button{
+
+    .news button {
         align-self: start;
     }
 
