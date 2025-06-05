@@ -313,104 +313,12 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
-}
-
-
-
-.mission1 {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    padding-bottom: 10%;
-}
-
-.mission1 img {
-    width: 80%;
-    position: relative;
-    top: -50Px;
-}
-
-.mission1 .text_area {
-    margin: 0;
-    width: 80%;
 
 }
 
-.mission1 .text_area h2 {
-    text-align: center;
-    font: normal normal bold 16px/22px Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-}
-
-.mission1 .text_area p {
-    text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-    padding-bottom: 7%;
-}
-
-.mission1 button {
-    background-color: #C1F7D5;
-    border-radius: 100px;
-    border: 0;
-    height: 40px;
-    width: 160px;
-}
 
 
-
-.mission2 {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    padding-bottom: 10%;
-}
-
-.mission2 img {
-    width: 80%;
-    position: relative;
-    top: -50Px;
-}
-
-.mission2 .text_area {
-    margin: 0;
-    width: 80%;
-
-}
-
-.mission2 .text_area h2 {
-    text-align: center;
-    font: normal normal bold 16px/22px Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-}
-
-.mission2 .text_area p {
-    text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
-    color: #354463;
-    padding-bottom: 7%;
-}
-
-.mission2 button {
-    background-color: #C1F7D5;
-    border-radius: 100px;
-    border: 0;
-    height: 40px;
-    width: 160px;
-}
-
-
-.mission3 {
+.mission3 , .mission1 , .mission2{
     padding-bottom: 10%;
     background-color: #FFFFFF;
     display: flex;
@@ -420,27 +328,27 @@
     margin-top: 20%;
 }
 
-.mission3 img {
+.mission3 img, .mission1 img , .mission2 img {
     width: 80%;
     position: relative;
     top: -50Px;
 
 }
 
-.mission3 .text_area {
+.mission3 .text_area ,.mission1 .text_area,.mission2 .text_area{
     margin: 0;
     width: 80%;
 
 }
 
-.mission3 .text_area h2 {
+.mission3 .text_area h2 , .mission1 .text_area h2 ,.mission2 .text_area h2 {
     text-align: center;
     font: normal normal bold 16px/22px Helvetica;
     letter-spacing: 0px;
     color: #354463;
 }
 
-.mission3 .text_area p {
+.mission3 .text_area p , .mission2 .text_area p ,.mission1 .text_area p {
     text-align: center;
     font: normal normal 300 14px/20px Helvetica;
     letter-spacing: -0.14px;
@@ -448,7 +356,7 @@
     padding-bottom: 7%;
 }
 
-.mission3 button {
+.missions button {
     background-color: #C1F7D5;
     border-radius: 100px;
     border: 0;
@@ -592,7 +500,7 @@
 
 
 
-/* page4 */
+/* page4  stories*/
 
 .stories {
     padding-left: 10%;
@@ -600,64 +508,58 @@
     padding-top: 10%;
 }
 
-.head_img {
+.stories .head_img {
     display: flex;
     flex-direction: column;
     position: relative;
     margin-bottom: 30px;
 }
 
-.head_img .heading {
+.stories .head_img .heading {
     background-color: #354463;
-    width: 160px;
-    height: 40px;
+    padding: 10px 25px 10px 25px;
     align-self: center;
     position: absolute;
-    top: -19px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    top: -2.5%;
     font: normal normal normal 14px/17px Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
 }
 
-.matter_button {
+.stories .matter_button {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.matter_button .matter {
+.stories .matter_button .matter {
     padding: 10%;
     background-color: #354463;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     font: normal normal bold 15px/28px Helvetica;
     color: #FFFFFF;
 }
 
-.matter_button .matter h3 {
+.stories .matter_button .matter h3 {
     font: normal normal bold 15px/28px Helvetica;
     padding-bottom: 10%;
 }
 
-.matter_button .matter p {
+.stories .matter_button .matter p {
     font: normal normal normal 11px/13px Helvetica;
     letter-spacing: 0.44px;
 }
 
-.matter_button button {
+.stories .matter_button button {
     background-color: #C1F7D5;
     border-radius: 100px;
     border: 0;
-    height: 50px;
-    width: 160px;
+    padding: 10px 25px 10px 25px;
     font: normal normal bold 16px/20px Helvetica;
     color: #354463;
-    margin-bottom: 70px;
+    margin-bottom: 5%;
+    align-self: center;
 }
 
 
@@ -729,6 +631,20 @@
     color: #FFFFFF;
 }
 
+.news button{
+    padding: 10px 25px 10px 25px;
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+}
+.news .matter_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
 
 /* page6 */
 .subscribe {
@@ -804,11 +720,11 @@ footer content .empty {
 }
 
 footer content .empty1 {
-    width: 30%;
+    width: 20%;
 }
 
 footer content .hashtag {
-    width: 55%;
+    width: 60%;
 }
 
 /* style */
@@ -843,13 +759,13 @@ footer content .follow a,
 
 footer content .hashtag {
     text-align: right;
-    font: normal normal normal 44px/46px Flood Std;
+    font: normal normal normal 40px/46px Flood Std;
 }
 
 
 /* Tablet Version */
 
-@media(min-width : 550px) {
+@media(min-width : 600px) {
 
 
     .header {
@@ -897,7 +813,8 @@ footer content .hashtag {
 
 
     /* page2 */
-    .mission1 {
+
+    .ms {
         flex-direction: row;
         flex-wrap: wrap;
         padding: 5%;
@@ -905,69 +822,17 @@ footer content .hashtag {
 
     }
 
-    .mission1 img {
-        flex: 1;
-
-        width: 50%;
-    }
-
-    .mission1 .text_area {
-        flex: 1;
-        width: 50%;
-        padding-left: 3%;
-    }
-
-    .mission1 button {
-        width: 50%;
-        align-self: self-end;
-        padding: 0%;
-    }
-
-
-    .mission2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 5%;
-        align-items: center;
-
-    }
-
-    .mission2 img {
+    .ms .img {
         flex: 1;
         width: 50%;
     }
 
-    .mission2 .text_area {
+    .ms .text_area {
         flex: 1;
         width: 50%;
     }
 
-    .mission2 button {
-        width: 50%;
-        align-self: self-end;
-        padding: 0%;
-    }
-
-
-    .mission3 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 5%;
-        align-items: center;
-
-    }
-
-    .mission3 img {
-        flex: 1;
-        width: 50%;
-    }
-
-    .mission3 .text_area {
-        flex: 1;
-        width: 50%;
-    }
-
-    .mission3 button {
+    .ms .button {
         width: 50%;
         align-self: self-end;
         padding: 0%;
@@ -993,6 +858,9 @@ footer content .hashtag {
     .did_you_know p {
         font: normal normal 300 20px/20px Helvetica;
     }
+    .what-we-do missions img{
+        top: -70px;
+    }
 
 
     /* page4 */
@@ -1002,21 +870,31 @@ footer content .hashtag {
 
     .stories .head_img {
         padding-right: 15%;
-        position: relative;
-    }
-
-    .stories .matter_button {
-        padding-left: 15%;
-        position: relative;
-        top: -150px;
-        justify-content: start;
-        align-items: start;
-    }
-
-    .stories .matter_button button {
         margin: 0;
     }
 
+
+    .stories .matter_button {
+        width: 85%;
+        position: relative;
+        top: -60px;
+        left: 15%;
+    }
+
+    .stories .matter_button .matter h3 {
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+    }
+
+    .stories .matter_button .matter p {
+        text-align: left;
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
+    .stories .matter_button button {
+        margin-bottom: 5%;
+        align-self: start;
+    }
 
     /* page5 */
     .lets-take-action {
@@ -1064,52 +942,32 @@ footer content .hashtag {
         top: 50px;
     }
 
-
     /* footer */
-    footer {
-        display: flex;
+    /*structure*/
+    footer content {
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
-    footer div {
-        padding-bottom: 5%;
-    }
-
-    footer .logo {
-        width: 25%;
-        padding-right: 5%;
-        text-align: left;
-        font: normal normal bold 28px/30px Helvetica;
-    }
-
-    footer .contact {
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-
-        padding-right: 5%;
-    }
-
-    footer .follow {
-        width: 30%;
-        display: flex;
-    }
-
-    footer .empty {
+    footer content div {
         width: 30%;
     }
 
-    footer .links {
+    footer content .empty {
         width: 30%;
     }
 
-    footer .hashtag {
-        text-align: left;
-        width: 30%;
-    }
-
-    footer .empty1 {
+    footer content .empty1 {
         width: 0;
+    }
+
+    footer content .hashtag {
+        width: 30%;
+    }
+
+    /* style */
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
     }
 
 
@@ -1118,7 +976,7 @@ footer content .hashtag {
 
 /* Desktop Version */
 
-@media(min-width:900px) {
+@media(min-width:1200px) {
     .header {
         height: 9vh;
         padding: 0, 10%, 0, 10%;
@@ -1265,41 +1123,40 @@ footer content .hashtag {
     .stories {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: end;
         position: relative;
         padding: 10%;
         padding-bottom: 3%;
         padding-top: 5%;
-    }
-
-    .stories .head_img {
-        padding: 0;
-        width: 60%;
+        padding-left: 0;
+        width: 90%;
     }
 
     .stories .matter_button {
-        padding: 0;
-        position: absolute;
+        position: relative;
+        top: 0;
         left: 10%;
-        top: 42%;
         height: 50%;
-        width: 40%;
-        margin: 0;
+        align-self: center;
     }
 
-    .stories .matter_button h3 {
+
+    .stories .head_img {
+        padding: 0;
+        width: 50%;
+    }
+
+    .stories .matter_button .matter h3 {
         text-align: left;
         font: normal normal bold 28px/36px Helvetica;
     }
 
-    .stories .matter_button p {
+    .stories .matter_button .matter p {
         text-align: left;
         font: normal normal normal 14px/17px Helvetica;
     }
 
     .stories .matter_button button {
-        height: 100px;
+        margin: 0;
     }
 
     /* page5 */
@@ -1346,6 +1203,9 @@ footer content .hashtag {
         text-align: left;
         font: normal normal bold 44px/56px Helvetica;
     }
+    .news button{
+        align-self: start;
+    }
 
 
     /* page6 */
@@ -1371,41 +1231,39 @@ footer content .hashtag {
 
 
     /* footer */
+    /*structure*/
     footer {
+        padding-bottom: 0;
+    }
+
+    footer content {
         display: flex;
-        flex-wrap: wrap;
-        padding: 5% 10% 0% 10%;
+        flex-direction: row;
     }
 
-    footer .logo {
-        font: normal normal bold 28px/30px Helvetica;
-        width: 15%;
-        padding-right: 5%;
-    }
 
-    footer .contact {
-        width: 15%;
-        padding-right: 7%;
-    }
-
-    footer .follow {
-        width: 20%;
-    }
-
-    footer .empty {
+    footer content .empty,
+    .empty1 {
         width: 0;
     }
 
-    footer .links {
-        width: 10%;
+    footer content div {
+        width: 17%;
+        padding-right: 2%;
     }
 
-    footer .hashtag {
-        width: 20%;
+    /*style*/
+    footer content .logo {
+        font: normal normal bold 22px/28px Helvetica;
     }
 
-    footer .empty1 {
-        width: 0;
+    footer content .contact .p1 {
+        font: normal normal normal 14px/17px Helvetica;
+    }
+
+    footer content .follow p,
+    .links p {
+        font: normal normal normal 14px/17px Helvetica;
     }
 
 }
