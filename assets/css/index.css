@@ -819,16 +819,13 @@ footer content .hashtag {
         flex-wrap: wrap;
         padding: 5%;
         align-items: center;
-
     }
 
     .ms .img {
-        flex: 1;
         width: 50%;
     }
 
     .ms .text_area {
-        flex: 1;
         width: 50%;
     }
 
@@ -1067,38 +1064,36 @@ footer content .hashtag {
         font: normal normal bold 44px/56px Helvetica;
         text-align: start;
         justify-content: space-around;
+        margin-bottom: 7%;
     }
 
-    .missions {
+    .missions{
+        display: flex;
         flex-direction: row;
+        align-items: start;
+        flex-wrap: wrap;
         justify-content: space-between;
-        padding-bottom: 10px;
-    }
 
-    .missions img {
-        left: 10%;
-        width: 105%;
-        height: 220px;
     }
-
-    .missions button {
+    .ms{
+        padding-top: 0;
+        margin-top: 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 20%;
+    }
+    .ms .img{
+        padding-left: 40%;
+        position: relative;
+        width: 140%;
+        top: -50px;
+    }
+    .ms .text_area{
+        width: 100%;
+    }
+    .ms .button{
         align-self: center;
     }
-
-    .mission1,
-    .mission2 {
-        padding: 10px;
-        margin-right: 5%;
-        margin-top: 10%;
-        flex-direction: column;
-    }
-
-    .mission3 {
-        padding: 10px;
-        margin-top: 10%;
-        flex-direction: column;
-    }
-
 
     /* page3 */
     .hashtag_button {

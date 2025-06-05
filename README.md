@@ -57,7 +57,6 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 - Clean up unused code or files to keep the project lightweight.
 
 ### 🔍 Example: Separation of Structure and Style
-
 It is considered a best practice to write layout and design rules in separate files—for example, `file-structure.css` and `file-style.css`. In this project:
 
 - The `index.css` file combines both structure and style in a single file, which makes it look cluttered and harder to maintain.
