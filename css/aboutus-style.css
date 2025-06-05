@@ -28,7 +28,7 @@
 
 /* start page */
 .start-page {
-    background: url('assets/about-us/annie-spratt-427339-unsplash@2x.png') no-repeat;
+    background: url('../assets/about-us/annie-spratt-427339-unsplash@2x.png') no-repeat;
     background-size: cover;
     background-position-x: 30%;
 }
@@ -121,7 +121,7 @@
 
 /* our team */
 .our-impact {
-    background: url('assets/about-us/Impact\ Background@2x.png') no-repeat;
+    background: url('../assets/about-us/Impact\ Background@2x.png') no-repeat;
     background-size: cover;
     opacity: 1;
     background-color: rgba(53, 68, 99, 0.8);

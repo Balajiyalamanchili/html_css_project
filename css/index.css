@@ -67,7 +67,7 @@
 .stop-climate-change {
     width: auto;
     height: 76Vh;
-    background: url('assets/home/annie-spratt-135307-unsplash.png') no-repeat;
+    background: url('../assets/home/annie-spratt-135307-unsplash@3x.png') no-repeat;
     background-position-x: 80%;
     background-size: cover;
     opacity: 1.76;
@@ -459,7 +459,7 @@
 /* page3 */
 
 .take_action_today {
-    background: url('assets/home/did-you-know-background@3x.png') no-repeat;
+    background: url('../assets/home/did-you-know-background@3x.png') no-repeat;
     background-size: cover;
     padding: 4% 10% 4% 10%;
     display: flex;
