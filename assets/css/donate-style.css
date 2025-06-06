@@ -5,7 +5,7 @@
 
 .nav h2 {
     text-align: center;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.13rem/1.38rem Helvetica;
     color: #354463;
 }
 
@@ -19,7 +19,7 @@
 
 .donation content .hashtag {
     text-align: center;
-    font: normal normal normal 32px/46px Flood Std;
+    font: normal normal normal 2rem/2.88rem Flood Std;
     letter-spacing: 0px;
     color: #FFFFFF;
 }
@@ -30,14 +30,14 @@
 
 form h2 {
     text-align: left;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #FFFFFF;
 }
 
 form .your-info p,
 form .payment-info p {
     text-align: left;
-    font: normal normal normal 11px/13px Helvetica;
+    font: normal normal normal 0.69rem/0.81rem Helvetica;
     letter-spacing: 0.44px;
     color: #FFFFFF;
 }
@@ -47,7 +47,7 @@ select {
     border: 0;
     border-bottom: 2px solid #C1F7D5;
     text-align: left;
-    font: normal normal 300 16px/24px Helvetica;
+    font: normal normal 300 1rem/1.5rem Helvetica;
     letter-spacing: -0.16px;
     color: #FFFFFF;
     background-color: #354463;
@@ -60,7 +60,7 @@ form .state {
 
 form .matter {
     text-align: left;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.13rem/1.38rem Helvetica;
     color: #FFFFFF;
 }
 
@@ -68,14 +68,14 @@ form button {
     background-color: #C1F7D5;
     border: 0;
     border-radius: 100px;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 1rem/1.25rem Helvetica;
     color: #354463;
 }
 
 form a {
     text-align: left;
     text-decoration: underline;
-    font: normal normal 300 14px/24px Helvetica;
+    font: normal normal 300 0.88rem/1.5rem Helvetica;
     letter-spacing: -0.14px;
     color: #C1F7D5;
 }
@@ -87,32 +87,32 @@ footer content {
 }
 
 footer content .logo {
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.13rem/1.38rem Helvetica;
 }
 
 footer content .contact .p2 {
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
 }
 
 footer content .follow p,
 .links p,
 .contact .p1 {
-    font: normal normal normal 11px/13px Helvetica;
+    font: normal normal normal 0.69rem/0.81rem Helvetica;
     letter-spacing: 0.44px;
 }
 
 footer content .follow a,
 .links a {
     text-decoration: underline;
-    font: normal normal 300 14px/24px Helvetica;
+    font: normal normal 300 0.88rem/1.5rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
 }
 
 footer content .hashtag {
     text-align: right;
-    font: normal normal normal 40px/46px Flood Std;
+    font: normal normal normal 2.5rem/2.88rem Flood Std;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -121,42 +121,42 @@ footer content .hashtag {
 
     /* header nav page */
     .nav h2 {
-        font: normal normal bold 30px/30px Helvetica;
+        font: normal normal bold 1.88rem/1.88rem Helvetica;
     }
 
     /* donation*/
     .donation content .hashtag {
-        font: normal normal normal 72px/76px Flood Std;
+        font: normal normal normal 4.5rem/4.75rem Flood Std;
     }
 
     form h2 {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     form .your-info p,
     form .payment-info p {
-        font: normal normal normal 14px/17px Helvetica;
+        font: normal normal normal 0.88rem/1.06rem Helvetica;
     }
 
     form input {
-        font: normal normal 300 20px/32px Helvetica;
+        font: normal normal 300 1.25rem/2rem Helvetica;
     }
 
     form .matter {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     form button {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     form a {
-        font: normal normal 300 16px/56px Helvetica;
+        font: normal normal 300 1rem/3.5rem Helvetica;
     }
 
     /* footer */
     footer content .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 }
 
@@ -166,49 +166,49 @@ footer content .hashtag {
 
     /* header nav page */
     .nav h2 {
-        font: normal normal bold 36px/37px Helvetica;
+        font: normal normal bold 2.25rem/2.31rem Helvetica;
     }
 
 
     /* donation*/
     .donation content .hashtag {
-        font: normal normal normal 72px/76px Flood Std;
+        font: normal normal normal 4.5rem/4.75rem Flood Std;
     }
 
     form h2 {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     form input {
-        font: normal normal 300 20px/32px Helvetica;
+        font: normal normal 300 1.25rem/2rem Helvetica;
     }
 
     form .matter {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     form button {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     form a {
-        font: normal normal 300 16px/56px Helvetica;
+        font: normal normal 300 1rem/3.5rem Helvetica;
     }
 
 
     /* footer*/
 
     .footer .content .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     .footer .content .contact .p1 {
-        font: normal normal normal 14px/17px Helvetica;
+        font: normal normal normal 0.88rem/1.06rem Helvetica;
     }
 
     .footer .content .follow p,
     .links p {
-        font: normal normal normal 14px/17px Helvetica;
+        font: normal normal normal 0.88rem/1.06rem Helvetica;
     }
 
 }

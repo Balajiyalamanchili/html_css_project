@@ -5,14 +5,14 @@
 
 .nav .logo_links .logo {
     text-align: left;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #354463;
 }
 
 .nav .logo_links .links a {
     text-decoration: none;
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
 }
@@ -22,7 +22,7 @@
     background-color: #C1F7D5;
     border: 0;
     text-align: center;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.13rem/1.38rem Helvetica;
     color: #354463;
 }
 
@@ -35,7 +35,7 @@
 
 .start-page .hashtag {
     text-align: left;
-    font: normal normal normal 60px/60px Flood Std;
+    font: normal normal normal 3.75rem/3.75rem Flood Std;
     color: #FFFFFF;
 }
 
@@ -46,14 +46,14 @@
 .start-page .head_matter .head {
     background-color: #354463;
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.88rem/1.06rem Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
 }
 
 .start-page .head_matter .matter p {
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #354463;
 }
 
@@ -65,27 +65,27 @@
 .mission-values .head_matter .head {
     background-color: #FFFFFF;
     text-align: center;
-    font: normal normal normal 15px/17px Helvetica;
+    font: normal normal normal 0.94rem/1.06rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
 }
 
 .mission-values .head_matter .matter {
     text-align: center;
-    font: normal normal bold 20px/28px Helvetica;
+    font: normal normal bold 1.25rem/1.75rem Helvetica;
     letter-spacing: 0px;
     color: #FFFFFF;
 }
 
 .mission-values .quotes h2 {
     text-align: left;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 1.00rem/1.25rem Helvetica;
     color: #FFFFFF;
 }
 
 .mission-values .quotes p {
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
     color: #FFFFFF;
 }
@@ -93,20 +93,20 @@
 /* OUR TEAM*/
 .our-team content .box-head-matter .box {
     background-color: #354463;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.88rem/1.06rem Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
 }
 
 .our-team content .box-head-matter .head-matter h2 {
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #354463;
 }
 
 .our-team content .box-head-matter .head-matter p {
     text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.29px;
     color: #354463;
 }
@@ -114,7 +114,7 @@
 .our-team content .team .member .name {
     background-color: #354463;
     text-align: left;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
     color: #FFFFFF;
 }
@@ -129,26 +129,26 @@
 
 .our-impact content .box {
     background-color: #FFFFFF;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.88rem/1.06rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
 }
 
 .our-impact content .head {
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #FFFFFF;
 }
 
 .our-impact content .achievements .achieved h4 {
     text-align: center;
-    font: normal normal normal 44px/46px Flood Std;
+    font: normal normal normal 2.75rem/2.88rem Flood Std;
     color: #FFFFFF;
 }
 
 .our-impact content .achievements .achieved P {
     text-align: center;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 1.00rem/1.25rem Helvetica;
     color: #FFFFFF;
 }
 
@@ -159,14 +159,14 @@
 
 .save .head h2 {
     text-align: center;
-    font: normal normal normal 44px/46px Flood Std;
+    font: normal normal normal 2.75rem/2.88rem Flood Std;
     color: #FFFFFF;
 }
 
 .save .sub-content .box {
     background-color: #FFFFFF;
     text-align: center;
-    font: normal normal normal 14px/17px Helvetica;
+    font: normal normal normal 0.88rem/1.06rem Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
 }
@@ -183,13 +183,13 @@
 
 .save .sub-content .matter h2 {
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.38rem/1.75rem Helvetica;
     color: #354463;
 }
 
 .save .sub-content .matter p {
     text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
 }
@@ -198,7 +198,7 @@
     background-color: #C1F7D5;
     border: 0;
     border-radius: 100px;
-    font: normal normal bold 14px/22px Helvetica;
+    font: normal normal bold 0.88rem/1.38rem Helvetica;
     color: #354463;
 }
 
@@ -209,32 +209,32 @@ footer content {
 }
 
 footer content .logo {
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.13rem/1.38rem Helvetica;
 }
 
 footer content .contact .p2 {
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.88rem/1.25rem Helvetica;
     letter-spacing: -0.14px;
 }
 
 footer content .follow p,
 .links p,
 .contact .p1 {
-    font: normal normal normal 11px/13px Helvetica;
+    font: normal normal normal 0.69rem/0.81rem Helvetica;
     letter-spacing: 0.44px;
 }
 
 footer content .follow a,
 .links a {
     text-decoration: underline;
-    font: normal normal 300 14px/24px Helvetica;
+    font: normal normal 300 0.88rem/1.50rem Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
 }
 
 footer content .hashtag {
     text-align: right;
-    font: normal normal normal 40px/46px Flood Std;
+    font: normal normal normal 2.50rem/2.88rem Flood Std;
 }
 
 /*--------------------- TABLET VERSION---------------------*/
@@ -243,16 +243,16 @@ footer content .hashtag {
 
     /* header nav page */
     .nav .logo_links .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     .nav .logo_links .links a {
-        font: normal normal 300 16px/24px Helvetica;
+        font: normal normal 300 1.00rem/1.50rem Helvetica;
     }
 
     /*start page*/
     .start-page .head_matter .matter p {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
         text-align: left;
     }
 
@@ -262,41 +262,41 @@ footer content .hashtag {
     }
 
     .mission-values .quotes h2 {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     /* our team */
     .our-team content .box-head-matter .head-matter h2 {
         text-align: left;
-        font: normal normal bold 36px/46px Helvetica;
+        font: normal normal bold 2.25rem/2.88rem Helvetica;
     }
 
     .our-team content .box-head-matter .head-matter p {
         text-align: left;
-        font: normal normal 300 18px/24px Helvetica;
+        font: normal normal 300 1.13rem/1.50rem Helvetica;
     }
 
     .our-team content .team .member .name {
-        font: normal normal 300 14px/20px Helvetica;
+        font: normal normal 300 0.88rem/1.25rem Helvetica;
     }
 
     /* our impact */
 
     .our-impact content .head {
-        font: normal normal bold 36px/46px Helvetica;
+        font: normal normal bold 2.25rem/2.88rem Helvetica;
     }
 
     .our-impact content .achievements .achieved h4 {
-        font: normal normal normal 72px/76px Flood Std;
+        font: normal normal normal 4.50rem/4.75rem Flood Std;
     }
 
     .our-impact content .achievements .achieved P {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     /* footer */
     footer content .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 }
 
@@ -306,80 +306,80 @@ footer content .hashtag {
 
     /* header nav page */
     .nav .logo_links .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     .nav .logo_links .logo_links a {
-        font: normal normal 300 16px/24px Helvetica;
+        font: normal normal 300 1.00rem/1.50rem Helvetica;
     }
 
     /*start page*/
     .start-page .hashtag {
-        font: normal normal normal 100px/101px Flood Std;
+        font: normal normal normal 6.25rem/6.31rem Flood Std;
     }
 
     .start-page .head_matter .matter p {
-        font: normal normal bold 35px/39px Helvetica;
+        font: normal normal bold 2.19rem/2.44rem Helvetica;
         text-align: left;
     }
 
     /* Mission & Values */
     .mission-values .head_matter .matter {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     .mission-values .quotes h2 {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     .mission-values .quotes p {
-        font: normal normal 300 16px/24px Helvetica;
+        font: normal normal 300 1.00rem/1.50rem Helvetica;
     }
 
 
     /* our team */
     .our-team content .box-head-matter .box {
-        font: normal normal normal 16px/30px Helvetica;
+        font: normal normal normal 1.00rem/1.88rem Helvetica;
     }
 
     .our-team content .box-head-matter .head-matter h2 {
-        font: normal normal bold 44px/56px Helvetica;
+        font: normal normal bold 2.75rem/3.50rem Helvetica;
     }
 
     .our-team content .box-head-matter .head-matter p {
-        font: normal normal 300 25px/30px Helvetica;
+        font: normal normal 300 1.56rem/1.88rem Helvetica;
     }
 
     .our-team content .team .member .name {
-        font: normal normal 300 18px/20px Helvetica;
+        font: normal normal 300 1.13rem/1.25rem Helvetica;
     }
 
     /* our impact */
     .our-impact content .head {
-        font: normal normal bold 44px/56px Helvetica;
+        font: normal normal bold 2.75rem/3.50rem Helvetica;
     }
 
     .our-impact content .achievements .achieved h4 {
-        font: normal normal normal 72px/76px Flood Std;
+        font: normal normal normal 4.50rem/4.75rem Flood Std;
     }
 
     .our-impact content .achievements .achieved P {
-        font: normal normal bold 28px/36px Helvetica;
+        font: normal normal bold 1.75rem/2.25rem Helvetica;
     }
 
     /* footer*/
 
     footer content .logo {
-        font: normal normal bold 22px/28px Helvetica;
+        font: normal normal bold 1.38rem/1.75rem Helvetica;
     }
 
     footer content .contact .p1 {
-        font: normal normal normal 14px/17px Helvetica;
+        font: normal normal normal 0.88rem/1.06rem Helvetica;
     }
 
     footer content .follow p,
     .links p {
-        font: normal normal normal 14px/17px Helvetica;
+        font: normal normal normal 0.88rem/1.06rem Helvetica;
     }
 
 }
